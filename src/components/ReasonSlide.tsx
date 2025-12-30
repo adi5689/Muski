@@ -8,8 +8,10 @@ interface ReasonSlideProps {
 
 const ReasonSlide = ({ number, reason, image }: ReasonSlideProps) => {
   return (
-    <div className="min-h-screen h-screen flex flex-col items-center justify-center px-4 py-16 bg-gradient-to-br from-pink-200 via-rose-300 to-purple-200
- overflow-hidden">
+    <div
+      className="min-h-screen h-screen flex flex-col items-center justify-center px-4 py-16 bg-gradient-to-br from-pink-200 via-rose-300 to-purple-200
+ overflow-hidden"
+    >
       <div className="max-w-lg w-full mx-auto text-center">
         {/* Reason Number */}
         <div className="mb-4 sm:mb-6 animate-fade-in-up">

@@ -28,7 +28,7 @@ const Index = () => {
         <FloatingHearts />
 
         {/* Music Toggle (🌻 sunflower loop + helper text handled inside) */}
-        <MusicToggle onPlay={() => setMusicStarted(true)} />
+        <MusicToggle />
 
         {/* Main Carousel */}
         <LoveCarousel />
